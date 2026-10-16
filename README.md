@@ -8,10 +8,11 @@ Homebrew tap for [PullYard](https://pullyard.github.io/pullyard/), a native GitH
 brew install --cask pullyard/tap/pullyard
 ```
 
-Or tap first:
+Installing by the full name also marks the cask as trusted (Homebrew requires [tap trust](https://docs.brew.sh/Tap-Trust) for third-party taps). If you tap first and install by the short name, trust it explicitly:
 
 ```bash
 brew tap pullyard/tap
+brew trust --cask pullyard/tap/pullyard
 brew install --cask pullyard
 ```
 
