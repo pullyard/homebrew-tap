@@ -1,6 +1,6 @@
 cask "pullyard" do
-  version "2.8.0"
-  sha256 "8fa88f5502d4cbaa25379fc152ab169a995b418eb0a859c45ea53e5b068cb753"
+  version "2.9.0"
+  sha256 "623fbab7be972eaf3afed85706a8f6d6da738e1dba85094205a742631d9465d7"
 
   url "https://github.com/pullyard/pullyard/releases/download/v#{version}/PullYard-#{version}.dmg"
   name "PullYard"
